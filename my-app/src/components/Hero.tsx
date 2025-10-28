@@ -3,8 +3,8 @@ import { Shield, Zap, Globe } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <section className="bg-gradient-to-br from-warm-brown-50 to-sage-green-50 py-20">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="bg-gradient-to-br from-warm-brown-200 to-warm-brown-2 py-20">
+      <div className="px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-warm-brown-900 mb-6 leading-tight">
@@ -18,7 +18,7 @@ export default function Hero() {
               <button className="px-8 py-3 bg-sage-green-600 text-white rounded-lg hover:bg-sage-green-700 transition-all transform hover:scale-105 shadow-lg">
                 Register Your Craft
               </button>
-              <button className="px-8 py-3 border-2 border-warm-brown-600 text-warm-brown-600 rounded-lg hover:bg-warm-brown-600 hover:text-white transition-all">
+              <button className="px-8 py-3 border-2 bg-sage-green-600 border-warm-brown-600 text-white rounded-lg hover:bg-sage-green-700 hover:text-white transition-all hover:scale-105 shadow-lg">
                 Learn More
               </button>
             </div>
@@ -38,8 +38,8 @@ export default function Hero() {
                 </div>
                 
                 <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-earth-tan-100 rounded-full flex items-center justify-center">
-                    <Zap className="h-6 w-6 text-earth-tan-600" />
+                  <div className="w-12 h-12 bg-sage-green-200 rounded-full flex items-center justify-center">
+                    <Zap className="h-6 w-6 text-sage-green-700" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-warm-brown-900">Blockchain Provenance</h3>
@@ -48,8 +48,8 @@ export default function Hero() {
                 </div>
                 
                 <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-warm-brown-100 rounded-full flex items-center justify-center">
-                    <Globe className="h-6 w-6 text-warm-brown-600" />
+                  <div className="w-12 h-12 bg-sage-green-300 rounded-full flex items-center justify-center">
+                    <Globe className="h-6 w-6 text-sage-green-900" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-warm-brown-900">Global Recognition</h3>
